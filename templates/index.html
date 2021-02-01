@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <title>Index</title>
+    <style>
+        body{
+            background-color:#FFAEB9;
+        }
+        #calc{
+            border-radius: 30px;
+            background-color:#9A32CD;
+        }
+        .badge{
+            background-color: #FFAEB9;
+        }
+        .jumbotron{
+            background-color:#68228B;
+        }
+    </style>
+</head>
+<body>
+    <div class="container bg-sucess p-5 rounded text-white" >
+        <div class="jumbotron p-4  rounded">
+            <h1 class="display-4">Calculadora</h1>
+            <p class="lead">Esta é um simples calculadora desenvolvida com Python</p>
+
+            <hr>
+            <div class="row">
+                <div class="col">
+                    <form action="" method="post">
+                        <input type="number" name="val1" placeholder="Digite o primeiro termo" class="form-control my-3">
+                        <input type="number" name="val2" placeholder="Digite o segundo termo" class="form-control my-3">
+            
+            </div>
+            <div class="col text-dark" id="calc">
+                <input type="radio" name="opc" id="soma" value="soma">
+                <span class="badge">Soma</span>
+                <br>
+
+                <input type="radio" name="opc" id="subt" value="subt">
+                <span class="badge">Subtração</span>
+                <br>
+
+                <input type="radio" name="opc" id="divi" value="divi">
+                <span class="badge">Divisão</span>
+                <br>
+
+                <input type="radio" name="opc" id="mult" value="mult">
+                <span class="badge">Multiplicação</span>
+                <br> 
+            </div>
+        </div>
+
+                
+                
+                <br>
+                <div class="mt-4">
+                    <button class="btn btn-primary">Enviar</button>
+                    <button class="btn btn-secondary" type="reset">Cancelar</button>
+                </div>
+
+            </form>
+        </div>
+    </div>
+</body>
+</html>
